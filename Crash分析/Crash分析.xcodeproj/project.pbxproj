@@ -1,0 +1,406 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00A56A72D4D2A668E6B31C55 /* libPods-Crash分析.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F056CBD75E62EEEE2C17ECD /* libPods-Crash分析.a */; };
+		7A3ADE7922A109A4005FD266 /* LGUncaughtExceptionHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A3ADE7822A109A4005FD266 /* LGUncaughtExceptionHandle.m */; };
+		7A47A41722A106D100739EAB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A47A41622A106D100739EAB /* AppDelegate.m */; };
+		7A47A41A22A106D100739EAB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A47A41922A106D100739EAB /* ViewController.m */; };
+		7A47A41D22A106D100739EAB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A47A41B22A106D100739EAB /* Main.storyboard */; };
+		7A47A41F22A106D200739EAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A47A41E22A106D200739EAB /* Assets.xcassets */; };
+		7A47A42222A106D200739EAB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A47A42022A106D200739EAB /* LaunchScreen.storyboard */; };
+		7A47A42522A106D200739EAB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A47A42422A106D200739EAB /* main.m */; };
+		7AF5E7842420F61300FC82D2 /* NSArray+LG.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AF5E7832420F61300FC82D2 /* NSArray+LG.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3BE3EBF2E2B8A62A2B80A1DF /* Pods-Crash分析.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Crash分析.debug.xcconfig"; path = "Target Support Files/Pods-Crash分析/Pods-Crash分析.debug.xcconfig"; sourceTree = "<group>"; };
+		7A3ADE7722A109A4005FD266 /* LGUncaughtExceptionHandle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGUncaughtExceptionHandle.h; sourceTree = "<group>"; };
+		7A3ADE7822A109A4005FD266 /* LGUncaughtExceptionHandle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGUncaughtExceptionHandle.m; sourceTree = "<group>"; };
+		7A47A41222A106D100739EAB /* Crash分析.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Crash分析.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A47A41522A106D100739EAB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7A47A41622A106D100739EAB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7A47A41822A106D100739EAB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7A47A41922A106D100739EAB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7A47A41C22A106D100739EAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7A47A41E22A106D200739EAB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7A47A42122A106D200739EAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7A47A42322A106D200739EAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A47A42422A106D200739EAB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7AF5E7822420F61300FC82D2 /* NSArray+LG.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSArray+LG.h"; sourceTree = "<group>"; };
+		7AF5E7832420F61300FC82D2 /* NSArray+LG.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSArray+LG.m"; sourceTree = "<group>"; };
+		8F056CBD75E62EEEE2C17ECD /* libPods-Crash分析.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Crash分析.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9682DF339FB382C4AA88FC0D /* Pods-Crash分析.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Crash分析.release.xcconfig"; path = "Target Support Files/Pods-Crash分析/Pods-Crash分析.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7A47A40F22A106D100739EAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00A56A72D4D2A668E6B31C55 /* libPods-Crash分析.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01F751298B62808F840D8395 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3BE3EBF2E2B8A62A2B80A1DF /* Pods-Crash分析.debug.xcconfig */,
+				9682DF339FB382C4AA88FC0D /* Pods-Crash分析.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		7A47A40922A106D100739EAB = {
+			isa = PBXGroup;
+			children = (
+				7A47A41422A106D100739EAB /* Crash分析 */,
+				7A47A41322A106D100739EAB /* Products */,
+				01F751298B62808F840D8395 /* Pods */,
+				CEF655FE1592DA3C84EACDB0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7A47A41322A106D100739EAB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7A47A41222A106D100739EAB /* Crash分析.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7A47A41422A106D100739EAB /* Crash分析 */ = {
+			isa = PBXGroup;
+			children = (
+				7A47A41522A106D100739EAB /* AppDelegate.h */,
+				7A47A41622A106D100739EAB /* AppDelegate.m */,
+				7A47A41822A106D100739EAB /* ViewController.h */,
+				7A47A41922A106D100739EAB /* ViewController.m */,
+				7AF5E7832420F61300FC82D2 /* NSArray+LG.m */,
+				7AF5E7822420F61300FC82D2 /* NSArray+LG.h */,
+				7A3ADE7722A109A4005FD266 /* LGUncaughtExceptionHandle.h */,
+				7A3ADE7822A109A4005FD266 /* LGUncaughtExceptionHandle.m */,
+				7A47A41B22A106D100739EAB /* Main.storyboard */,
+				7A47A41E22A106D200739EAB /* Assets.xcassets */,
+				7A47A42022A106D200739EAB /* LaunchScreen.storyboard */,
+				7A47A42322A106D200739EAB /* Info.plist */,
+				7A47A42422A106D200739EAB /* main.m */,
+			);
+			path = "Crash分析";
+			sourceTree = "<group>";
+		};
+		CEF655FE1592DA3C84EACDB0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8F056CBD75E62EEEE2C17ECD /* libPods-Crash分析.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7A47A41122A106D100739EAB /* Crash分析 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A47A42822A106D200739EAB /* Build configuration list for PBXNativeTarget "Crash分析" */;
+			buildPhases = (
+				8DF5390C19ACDF56A2C37EFA /* [CP] Check Pods Manifest.lock */,
+				7A47A40E22A106D100739EAB /* Sources */,
+				7A47A40F22A106D100739EAB /* Frameworks */,
+				7A47A41022A106D100739EAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Crash分析";
+			productName = "Crash分析";
+			productReference = 7A47A41222A106D100739EAB /* Crash分析.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7A47A40A22A106D100739EAB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = lgcooci;
+				TargetAttributes = {
+					7A47A41122A106D100739EAB = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 7A47A40D22A106D100739EAB /* Build configuration list for PBXProject "Crash分析" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7A47A40922A106D100739EAB;
+			productRefGroup = 7A47A41322A106D100739EAB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7A47A41122A106D100739EAB /* Crash分析 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7A47A41022A106D100739EAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A47A42222A106D200739EAB /* LaunchScreen.storyboard in Resources */,
+				7A47A41F22A106D200739EAB /* Assets.xcassets in Resources */,
+				7A47A41D22A106D100739EAB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8DF5390C19ACDF56A2C37EFA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Crash分析-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7A47A40E22A106D100739EAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AF5E7842420F61300FC82D2 /* NSArray+LG.m in Sources */,
+				7A3ADE7922A109A4005FD266 /* LGUncaughtExceptionHandle.m in Sources */,
+				7A47A41A22A106D100739EAB /* ViewController.m in Sources */,
+				7A47A42522A106D200739EAB /* main.m in Sources */,
+				7A47A41722A106D100739EAB /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7A47A41B22A106D100739EAB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7A47A41C22A106D100739EAB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7A47A42022A106D200739EAB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7A47A42122A106D200739EAB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7A47A42622A106D200739EAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7A47A42722A106D200739EAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7A47A42922A106D200739EAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3BE3EBF2E2B8A62A2B80A1DF /* Pods-Crash分析.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YWP99VLJ82;
+				INFOPLIST_FILE = "Crash分析/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lgcooci.cn.Crash--";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7A47A42A22A106D200739EAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9682DF339FB382C4AA88FC0D /* Pods-Crash分析.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YWP99VLJ82;
+				INFOPLIST_FILE = "Crash分析/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lgcooci.cn.Crash--";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7A47A40D22A106D100739EAB /* Build configuration list for PBXProject "Crash分析" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A47A42622A106D200739EAB /* Debug */,
+				7A47A42722A106D200739EAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A47A42822A106D200739EAB /* Build configuration list for PBXNativeTarget "Crash分析" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A47A42922A106D200739EAB /* Debug */,
+				7A47A42A22A106D200739EAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7A47A40A22A106D100739EAB /* Project object */;
+}

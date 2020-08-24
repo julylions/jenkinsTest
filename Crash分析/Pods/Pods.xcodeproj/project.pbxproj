@@ -1,0 +1,560 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		037045DD781D0548D2754FFFE4C27D7C /* SCLButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D9B098144F88604BFE6771830091A7E /* SCLButton.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1BDFC0BC41B0CCBCCBFB53331513556E /* SCLAlertView.h in Headers */ = {isa = PBXBuildFile; fileRef = DB8858C331FDBFBB2B86361383255504 /* SCLAlertView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		273DADC85218F12517C3AF9C72D9C568 /* SCLTimerDisplay.h in Headers */ = {isa = PBXBuildFile; fileRef = 4BE2413AAB861DF691B43D913E154507 /* SCLTimerDisplay.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		375BE8920A384F3EC1F5E7FF80F84F85 /* SCLAlertViewResponder.h in Headers */ = {isa = PBXBuildFile; fileRef = 0061C874213C138687DCF21A80202F2F /* SCLAlertViewResponder.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		41386DC2522BA90C2F2817D74EA58EA2 /* SCLTimerDisplay.m in Sources */ = {isa = PBXBuildFile; fileRef = A2F474EB52ED314407027AE7A027D4F7 /* SCLTimerDisplay.m */; };
+		4CF6C0784825A3606D7B3B491E3A075B /* SCLAlertViewStyleKit.m in Sources */ = {isa = PBXBuildFile; fileRef = C1CDDFF545319331F2B7647B0FF6B553 /* SCLAlertViewStyleKit.m */; };
+		502DDA92B2BD2E42EFDC59E490282B2C /* SCLMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 238515788EEF7D7F8D9F6AB41D3A1676 /* SCLMacros.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		55FE2415352899FB441FF90BEC24A6C5 /* SCLAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = C49198D658FFB3E8F9A8FD808AC0D73A /* SCLAlertView.m */; };
+		5EB286499D7ED067738768F90100F903 /* UIImage+ImageEffects.h in Headers */ = {isa = PBXBuildFile; fileRef = AB07ABC823651402188F5C5C30B412AA /* UIImage+ImageEffects.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		90B1DF56933F057802CE7775B3EFA5E3 /* SCLTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 56B0FE838A228CF7D27C882E829CF260 /* SCLTextView.m */; };
+		9960B7A8488E358977D12D454F201231 /* SCLAlertView-Objective-C-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 46B21818195BAD94182D680B6E8C219F /* SCLAlertView-Objective-C-dummy.m */; };
+		AD15547D73BD0BCE272A869DACE38CDC /* SCLAlertViewResponder.m in Sources */ = {isa = PBXBuildFile; fileRef = DB987FE124382724E52EABBC2491BAEF /* SCLAlertViewResponder.m */; };
+		C2928E8D27222A18D902E9A701374C31 /* SCLAlertViewStyleKit.h in Headers */ = {isa = PBXBuildFile; fileRef = A35D483A737EB2B62B47D13D7E2390CE /* SCLAlertViewStyleKit.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C9B80DE54022561F9B74C2524B58C711 /* SCLTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4071ED66024CA9FF230273A056E77978 /* SCLTextView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CBAE87910E2EB5556BD67C412DA9380A /* SCLSwitchView.h in Headers */ = {isa = PBXBuildFile; fileRef = FBF0920B36392CFDF3D9A7A055759C4D /* SCLSwitchView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CF2B0236D1D86C2FF6280D2DDD826A01 /* Pods-Crash分析-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C9031247E9D4CC12C16488967810B49F /* Pods-Crash分析-dummy.m */; };
+		D7E3F329BFFFB1D874A3D89A09E9CF27 /* SCLButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 83389922E59E85B1FC057F13801E7223 /* SCLButton.m */; };
+		F39D0956222C8C793FFC32F30DAAFD70 /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BA3FDFAC734CDFD3D26120376B2D0FB /* UIImage+ImageEffects.m */; };
+		FC6832A6979275EE980BF9032A52FC59 /* SCLSwitchView.m in Sources */ = {isa = PBXBuildFile; fileRef = 06DFDE552FF11A9B65AD06517BC53E04 /* SCLSwitchView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4B1A0905E32CB225A73D3A23DFCADDE3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 67DE2D3802BA38137DED05CAF8EC6968;
+			remoteInfo = "SCLAlertView-Objective-C";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0061C874213C138687DCF21A80202F2F /* SCLAlertViewResponder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SCLAlertViewResponder.h; path = SCLAlertView/SCLAlertViewResponder.h; sourceTree = "<group>"; };
+		06DFDE552FF11A9B65AD06517BC53E04 /* SCLSwitchView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SCLSwitchView.m; path = SCLAlertView/SCLSwitchView.m; sourceTree = "<group>"; };
+		1BA3FDFAC734CDFD3D26120376B2D0FB /* UIImage+ImageEffects.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+ImageEffects.m"; path = "SCLAlertView/UIImage+ImageEffects.m"; sourceTree = "<group>"; };
+		1D9B098144F88604BFE6771830091A7E /* SCLButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SCLButton.h; path = SCLAlertView/SCLButton.h; sourceTree = "<group>"; };
+		2319DE077680121DD3A117D92BCF4B67 /* SCLAlertView-Objective-C-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SCLAlertView-Objective-C-prefix.pch"; sourceTree = "<group>"; };
+		238515788EEF7D7F8D9F6AB41D3A1676 /* SCLMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SCLMacros.h; path = SCLAlertView/SCLMacros.h; sourceTree = "<group>"; };
+		2940CDC4E12F5BACFDA3FA292DAB6C13 /* libSCLAlertView-Objective-C.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libSCLAlertView-Objective-C.a"; path = "libSCLAlertView-Objective-C.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4071ED66024CA9FF230273A056E77978 /* SCLTextView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SCLTextView.h; path = SCLAlertView/SCLTextView.h; sourceTree = "<group>"; };
+		46B21818195BAD94182D680B6E8C219F /* SCLAlertView-Objective-C-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SCLAlertView-Objective-C-dummy.m"; sourceTree = "<group>"; };
+		4BE2413AAB861DF691B43D913E154507 /* SCLTimerDisplay.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SCLTimerDisplay.h; path = SCLAlertView/SCLTimerDisplay.h; sourceTree = "<group>"; };
+		56B0FE838A228CF7D27C882E829CF260 /* SCLTextView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SCLTextView.m; path = SCLAlertView/SCLTextView.m; sourceTree = "<group>"; };
+		5C94A0C521A498CF726C021D708BFBB9 /* libPods-Crash分析.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-Crash分析.a"; path = "libPods-Crash分析.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		83389922E59E85B1FC057F13801E7223 /* SCLButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SCLButton.m; path = SCLAlertView/SCLButton.m; sourceTree = "<group>"; };
+		9607265F52D4556883D5BF07142691AF /* Pods-Crash分析-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Crash分析-acknowledgements.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A2F474EB52ED314407027AE7A027D4F7 /* SCLTimerDisplay.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SCLTimerDisplay.m; path = SCLAlertView/SCLTimerDisplay.m; sourceTree = "<group>"; };
+		A35D483A737EB2B62B47D13D7E2390CE /* SCLAlertViewStyleKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SCLAlertViewStyleKit.h; path = SCLAlertView/SCLAlertViewStyleKit.h; sourceTree = "<group>"; };
+		AB07ABC823651402188F5C5C30B412AA /* UIImage+ImageEffects.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+ImageEffects.h"; path = "SCLAlertView/UIImage+ImageEffects.h"; sourceTree = "<group>"; };
+		C1CDDFF545319331F2B7647B0FF6B553 /* SCLAlertViewStyleKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SCLAlertViewStyleKit.m; path = SCLAlertView/SCLAlertViewStyleKit.m; sourceTree = "<group>"; };
+		C49198D658FFB3E8F9A8FD808AC0D73A /* SCLAlertView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SCLAlertView.m; path = SCLAlertView/SCLAlertView.m; sourceTree = "<group>"; };
+		C9031247E9D4CC12C16488967810B49F /* Pods-Crash分析-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Crash分析-dummy.m"; sourceTree = "<group>"; };
+		DB8858C331FDBFBB2B86361383255504 /* SCLAlertView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SCLAlertView.h; path = SCLAlertView/SCLAlertView.h; sourceTree = "<group>"; };
+		DB987FE124382724E52EABBC2491BAEF /* SCLAlertViewResponder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SCLAlertViewResponder.m; path = SCLAlertView/SCLAlertViewResponder.m; sourceTree = "<group>"; };
+		DEE3F3D82C8E9453ED1BBE68D9545573 /* Pods-Crash分析-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Crash分析-acknowledgements.markdown"; sourceTree = "<group>"; };
+		EE584734C9325DEC5708671AA536B268 /* Pods-Crash分析.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Crash分析.release.xcconfig"; sourceTree = "<group>"; };
+		EF5EB875A8AF0C9AE4AFD75EB4FC59F9 /* SCLAlertView-Objective-C.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "SCLAlertView-Objective-C.xcconfig"; sourceTree = "<group>"; };
+		F289D84C0454F3A0C511856166A2CAB4 /* Pods-Crash分析.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Crash分析.debug.xcconfig"; sourceTree = "<group>"; };
+		FBF0920B36392CFDF3D9A7A055759C4D /* SCLSwitchView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SCLSwitchView.h; path = SCLAlertView/SCLSwitchView.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ED31DB9CA43A67D35D95DBD9ADB39DC4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F62A1193D3EFCAEDE2CA2A945F4DFE0F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0B0BF2B6E8014CC49231A66FE164D6E9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5C94A0C521A498CF726C021D708BFBB9 /* libPods-Crash分析.a */,
+				2940CDC4E12F5BACFDA3FA292DAB6C13 /* libSCLAlertView-Objective-C.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4B9829B251275F142D2657B9C0745179 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EF5EB875A8AF0C9AE4AFD75EB4FC59F9 /* SCLAlertView-Objective-C.xcconfig */,
+				46B21818195BAD94182D680B6E8C219F /* SCLAlertView-Objective-C-dummy.m */,
+				2319DE077680121DD3A117D92BCF4B67 /* SCLAlertView-Objective-C-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SCLAlertView-Objective-C";
+			sourceTree = "<group>";
+		};
+		636E26F8848FD2744A59879616F42EB1 /* SCLAlertView-Objective-C */ = {
+			isa = PBXGroup;
+			children = (
+				DB8858C331FDBFBB2B86361383255504 /* SCLAlertView.h */,
+				C49198D658FFB3E8F9A8FD808AC0D73A /* SCLAlertView.m */,
+				0061C874213C138687DCF21A80202F2F /* SCLAlertViewResponder.h */,
+				DB987FE124382724E52EABBC2491BAEF /* SCLAlertViewResponder.m */,
+				A35D483A737EB2B62B47D13D7E2390CE /* SCLAlertViewStyleKit.h */,
+				C1CDDFF545319331F2B7647B0FF6B553 /* SCLAlertViewStyleKit.m */,
+				1D9B098144F88604BFE6771830091A7E /* SCLButton.h */,
+				83389922E59E85B1FC057F13801E7223 /* SCLButton.m */,
+				238515788EEF7D7F8D9F6AB41D3A1676 /* SCLMacros.h */,
+				FBF0920B36392CFDF3D9A7A055759C4D /* SCLSwitchView.h */,
+				06DFDE552FF11A9B65AD06517BC53E04 /* SCLSwitchView.m */,
+				4071ED66024CA9FF230273A056E77978 /* SCLTextView.h */,
+				56B0FE838A228CF7D27C882E829CF260 /* SCLTextView.m */,
+				4BE2413AAB861DF691B43D913E154507 /* SCLTimerDisplay.h */,
+				A2F474EB52ED314407027AE7A027D4F7 /* SCLTimerDisplay.m */,
+				AB07ABC823651402188F5C5C30B412AA /* UIImage+ImageEffects.h */,
+				1BA3FDFAC734CDFD3D26120376B2D0FB /* UIImage+ImageEffects.m */,
+				4B9829B251275F142D2657B9C0745179 /* Support Files */,
+			);
+			name = "SCLAlertView-Objective-C";
+			path = "SCLAlertView-Objective-C";
+			sourceTree = "<group>";
+		};
+		86FCDB6D333E9C30CA7F638ABA7E73B3 /* Pods-Crash分析 */ = {
+			isa = PBXGroup;
+			children = (
+				DEE3F3D82C8E9453ED1BBE68D9545573 /* Pods-Crash分析-acknowledgements.markdown */,
+				9607265F52D4556883D5BF07142691AF /* Pods-Crash分析-acknowledgements.plist */,
+				C9031247E9D4CC12C16488967810B49F /* Pods-Crash分析-dummy.m */,
+				F289D84C0454F3A0C511856166A2CAB4 /* Pods-Crash分析.debug.xcconfig */,
+				EE584734C9325DEC5708671AA536B268 /* Pods-Crash分析.release.xcconfig */,
+			);
+			name = "Pods-Crash分析";
+			path = "Target Support Files/Pods-Crash分析";
+			sourceTree = "<group>";
+		};
+		89FFE2D5CC8B2B297BD05D7E3AE0E876 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				86FCDB6D333E9C30CA7F638ABA7E73B3 /* Pods-Crash分析 */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		AAE6E37B16955219D4E6E80FB01F9985 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				636E26F8848FD2744A59879616F42EB1 /* SCLAlertView-Objective-C */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				AAE6E37B16955219D4E6E80FB01F9985 /* Pods */,
+				0B0BF2B6E8014CC49231A66FE164D6E9 /* Products */,
+				89FFE2D5CC8B2B297BD05D7E3AE0E876 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1645993B96112102DDC33085528FF88F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8BB30C3DF99BAF55B0E3696F4414421 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BDFC0BC41B0CCBCCBFB53331513556E /* SCLAlertView.h in Headers */,
+				375BE8920A384F3EC1F5E7FF80F84F85 /* SCLAlertViewResponder.h in Headers */,
+				C2928E8D27222A18D902E9A701374C31 /* SCLAlertViewStyleKit.h in Headers */,
+				037045DD781D0548D2754FFFE4C27D7C /* SCLButton.h in Headers */,
+				502DDA92B2BD2E42EFDC59E490282B2C /* SCLMacros.h in Headers */,
+				CBAE87910E2EB5556BD67C412DA9380A /* SCLSwitchView.h in Headers */,
+				C9B80DE54022561F9B74C2524B58C711 /* SCLTextView.h in Headers */,
+				273DADC85218F12517C3AF9C72D9C568 /* SCLTimerDisplay.h in Headers */,
+				5EB286499D7ED067738768F90100F903 /* UIImage+ImageEffects.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3507D281E62E457F9E0A70442D5F5C7E /* Pods-Crash分析 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADF3E150C7EF3A3E7B22B8589DAD1B07 /* Build configuration list for PBXNativeTarget "Pods-Crash分析" */;
+			buildPhases = (
+				1645993B96112102DDC33085528FF88F /* Headers */,
+				96BEABDF5252622B805DFC09F6A0C1AD /* Sources */,
+				F62A1193D3EFCAEDE2CA2A945F4DFE0F /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9D4362563A7B23C9049EDE797FD6525F /* PBXTargetDependency */,
+			);
+			name = "Pods-Crash分析";
+			productName = "Pods-Crash分析";
+			productReference = 5C94A0C521A498CF726C021D708BFBB9 /* libPods-Crash分析.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		67DE2D3802BA38137DED05CAF8EC6968 /* SCLAlertView-Objective-C */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B4EC3F75016206EDA9264DF8EE4C36B /* Build configuration list for PBXNativeTarget "SCLAlertView-Objective-C" */;
+			buildPhases = (
+				A8BB30C3DF99BAF55B0E3696F4414421 /* Headers */,
+				EE438973C4788E67AE4EEAFEE73ABC11 /* Sources */,
+				ED31DB9CA43A67D35D95DBD9ADB39DC4 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SCLAlertView-Objective-C";
+			productName = "SCLAlertView-Objective-C";
+			productReference = 2940CDC4E12F5BACFDA3FA292DAB6C13 /* libSCLAlertView-Objective-C.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 0B0BF2B6E8014CC49231A66FE164D6E9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3507D281E62E457F9E0A70442D5F5C7E /* Pods-Crash分析 */,
+				67DE2D3802BA38137DED05CAF8EC6968 /* SCLAlertView-Objective-C */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		96BEABDF5252622B805DFC09F6A0C1AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF2B0236D1D86C2FF6280D2DDD826A01 /* Pods-Crash分析-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE438973C4788E67AE4EEAFEE73ABC11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9960B7A8488E358977D12D454F201231 /* SCLAlertView-Objective-C-dummy.m in Sources */,
+				55FE2415352899FB441FF90BEC24A6C5 /* SCLAlertView.m in Sources */,
+				AD15547D73BD0BCE272A869DACE38CDC /* SCLAlertViewResponder.m in Sources */,
+				4CF6C0784825A3606D7B3B491E3A075B /* SCLAlertViewStyleKit.m in Sources */,
+				D7E3F329BFFFB1D874A3D89A09E9CF27 /* SCLButton.m in Sources */,
+				FC6832A6979275EE980BF9032A52FC59 /* SCLSwitchView.m in Sources */,
+				90B1DF56933F057802CE7775B3EFA5E3 /* SCLTextView.m in Sources */,
+				41386DC2522BA90C2F2817D74EA58EA2 /* SCLTimerDisplay.m in Sources */,
+				F39D0956222C8C793FFC32F30DAAFD70 /* UIImage+ImageEffects.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9D4362563A7B23C9049EDE797FD6525F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "SCLAlertView-Objective-C";
+			target = 67DE2D3802BA38137DED05CAF8EC6968 /* SCLAlertView-Objective-C */;
+			targetProxy = 4B1A0905E32CB225A73D3A23DFCADDE3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		16A138A3DBA009B51ED22D08D506349F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F289D84C0454F3A0C511856166A2CAB4 /* Pods-Crash分析.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		664DA6604726A19F376202BBA85FCF51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF5EB875A8AF0C9AE4AFD75EB4FC59F9 /* SCLAlertView-Objective-C.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/SCLAlertView-Objective-C/SCLAlertView-Objective-C-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = SCLAlertView_Objective_C;
+				PRODUCT_NAME = "SCLAlertView-Objective-C";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		84A06F28E9E7D9EB0A9B476A8668FD60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		89724ED1BEE4B8D5426498E6F1E82622 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF5EB875A8AF0C9AE4AFD75EB4FC59F9 /* SCLAlertView-Objective-C.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/SCLAlertView-Objective-C/SCLAlertView-Objective-C-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = SCLAlertView_Objective_C;
+				PRODUCT_NAME = "SCLAlertView-Objective-C";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AB74EFDC7535ABE2A4DB57FB577F7F0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE584734C9325DEC5708671AA536B268 /* Pods-Crash分析.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D0FE574C7B3479C6425BC136AA57D8C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3B4EC3F75016206EDA9264DF8EE4C36B /* Build configuration list for PBXNativeTarget "SCLAlertView-Objective-C" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				664DA6604726A19F376202BBA85FCF51 /* Debug */,
+				89724ED1BEE4B8D5426498E6F1E82622 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0FE574C7B3479C6425BC136AA57D8C2 /* Debug */,
+				84A06F28E9E7D9EB0A9B476A8668FD60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADF3E150C7EF3A3E7B22B8589DAD1B07 /* Build configuration list for PBXNativeTarget "Pods-Crash分析" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16A138A3DBA009B51ED22D08D506349F /* Debug */,
+				AB74EFDC7535ABE2A4DB57FB577F7F0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
